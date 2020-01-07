@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Eventos do Mouse </title>
+<meta charset="UTF-8">
+<script src="aula14.js"> </script>
+</head>
+<body>
+
+<h1 onclick="changeText(this)"> Clique no Texto </h1>
+
+<button onclick="displayDate()"> Data </button>
+<p id="demo"> </p> <!-- Criando um parágrafo, o horário aparece fora do botão. Ex.: <button onclick="displayDate()"id="demo">Data</button>
+                        aparece dentro do botão-->
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#F4B7C6; width:120px; height:20px; padding:40px;">Passe o Mouse Aqui</div><br>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:#9379BB; width:120px; height:20px; padding:40px;"> Clique e Segure</div><br>
+
+<p ondblclick="myfunction()"> Clique Duas Vezes nesse Parágrafo</p>
+<p id="demo1"> </p>
+
+</body>
+</html>
